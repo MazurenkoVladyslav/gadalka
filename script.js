@@ -63,7 +63,7 @@ const cards = [
 
 function getRandomCards() {
     let selectedCards = [];
-    while (selectedCards.length < 7) {
+    while (selectedCards.length < 6) {
         const randomIndex = Math.floor(Math.random() * cards.length);
         const card = cards[randomIndex];
         if (!selectedCards.includes(card)) {
